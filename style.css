@@ -125,9 +125,13 @@ footer p {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+        justify-content: space-between;
+        /* align-items: center; */
     }
     #photos article .item{
-        width: 100%;
+        flex-basis: 100%;
+        margin: 2%;
+        width: 94%;
     }
     main #article-items {
         flex-direction: column;
@@ -135,6 +139,9 @@ footer p {
     }
 
     main #article-items .centered-button {
+        margin: auto;
+    }
+    article .centered-button{
         margin: auto;
     }
 }
